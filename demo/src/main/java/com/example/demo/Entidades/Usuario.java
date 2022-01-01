@@ -23,7 +23,7 @@ public class Usuario {
     @Column(name="tiempos")
     String tiempos;
 
-    @Column(name="grilla")
+    @Column(name="grilla", length = 10000)
     String grilla;
 
     public Usuario(){
